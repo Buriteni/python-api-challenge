@@ -80,3 +80,36 @@ Next, I created a series of scatter plots. I had to included the linear regressi
 
 **Discussion about the linear relationship:** For the northern hemisphere the wind speed is just a bit higher with a slight increase as the latitude increases. The southern hemisphere wind speed is slightly lower but gradually increases as the latitude increases. 
 
+# Part 2: VacationPy
+
+In this deliverable, I'll use my weather data skills to plan future vacations. Also, I'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
+
+The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in Part 1 is provided to help me get started.
+
+My main tasks will be to use the Geoapify API and the geoViews Python library and employ my Python skills to create map visualizations.
+
+1. Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
+
+![](WeatherPy/Weatherpng/Vacayone.PNG)
+
+2. Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
+
+*A max temperature lower than 27 degrees but higher than 21
+
+*Wind speed less than 4.5 m/s
+
+*Zero cloudiness
+
+![](WeatherPy/Weatherpng/NarrowDF.PNG)
+
+3. Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
+
+![](WeatherPy/Weatherpng/hotel_df.PNG)
+
+4. For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
+
+![](WeatherPy/Weatherpng/Hoteldf.PNG)
+
+5. Add the hotel name and the country as additional information in the hover message for each city on the map.
+
+![](WeatherPy/Weatherpng/Hotelname.PNG)
