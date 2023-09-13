@@ -113,3 +113,11 @@ My main tasks will be to use the Geoapify API and the geoViews Python library an
 5. Add the hotel name and the country as additional information in the hover message for each city on the map.
 
 ![](WeatherPy/Weatherpng/Hotelname.PNG)
+
+# Resourses
+- AskBCS
+- Tutors
+- https://apidocs.geoapify.com/docs/places/#categories
+- https://pandas.pydata.org/docs/index.html#
+- Assignments
+
